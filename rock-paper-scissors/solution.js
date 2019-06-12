@@ -1,9 +1,9 @@
 var content = document.getElementById('content');
 
 var winningConditions = {
-    "rock": { "paper":     "Computer Wins", "scissors": "Player Wins", "rock": "Tie" },
-    "paper": { "scissors": "Computer Wins", "rock":     "Player Wins", "paper": "Tie" },
-    "scissors": { "rock":  "Computer Wins", "paper":    "Player Wins", "scissors": "Tie" }
+    "rock": { "paper": "Player Wins", "scissors": "Computer Wins", "rock": "Tie" },
+    "paper": { "scissors": "Player Wins", "rock": "Computer Wins", "paper": "Tie" },
+    "scissors": { "rock": "Player Wins", "paper": "Computer Wins", "scissors": "Tie" }
 }
 
 var rockPaperScissors = {
